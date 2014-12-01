@@ -25,6 +25,9 @@ table {
 	border-spacing: 0;
 }
 #container{
+    width:600px;
+    padding: 7px; 
+    margin: 0 auto 0 auto;
     
 }
 #topbar{
@@ -48,15 +51,13 @@ table {
 	background:#666633;
 	float:left;
 	margin-top:-29px;
-width: 266px;
-    
+   
 } 
 
 #menu li a{
-
 	padding: 10px;
 	display: inline-block;
-	width: 249px;
+	width: 100px;
 	text-align: center;
 	font-size: 19px;
 	color: rgba(6, 0, 0, 1);
