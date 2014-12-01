@@ -1,1 +1,87 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#container{
+    
+}
+#topbar{
+    background-color:#666633;
+}
+
+#menu::before{
+	content:url(pics/coffey.jpg); 
+	display:block; 
+	width:100%;
+	margin: 0px;
+	padding:0px;
+	float:left;
+	border-style: solid none;
+}
+
+#menu{
+    background-color:#666633;
+}
+#menu li {
+	background:#666633;
+	float:left;
+	margin-top:-29px;
+width: 266px;
+    
+} 
+
+#menu li a{
+
+	padding: 10px;
+	display: inline-block;
+	width: 249px;
+	text-align: center;
+	font-size: 19px;
+	color: rgba(6, 0, 0, 1);
+	background:#666633;
+	border: 0px solid rgba(0,0,255,0.4);
+
+}
+
+
+#menu li a:hover {
+	cursor: pointer; 
+	background: rgba(0,0,255,0.6);
+	color: rgba(0,0,0,1);
+}
+
+#menu #current {
+	font-weight: bold;
+	background: rgba(0,0,255,0.47);
+}
+
+ul{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#content{
+    
+}
