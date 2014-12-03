@@ -62,7 +62,6 @@ table {
 	font-size: 19px;
 	color: rgba(6, 0, 0, 1);
 	background:#666633;
-	border: 0px solid rgba(0,0,255,0.4);
 
 }
 
@@ -84,5 +83,21 @@ ul{
 }
 
 #content{
-    
+	background-color:LightGray;
 }
+#maincontent{
+    float:left;
+    display:inline;
+    width:60%;
+}
+
+#bubbel{
+	float:left;
+	padding: 0px 10px 0px 0px;
+}
+	
+#subcontent{
+	float:right;
+	width:40%;
+}
+
