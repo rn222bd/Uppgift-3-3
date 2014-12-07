@@ -24,52 +24,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+A:link {text-decoration: none; color: DimGray;}
+A:visited {text-decoration: none;}
+A:hover {text-decoration: underline; color: blue;}
+
 #container{
     width:600px;
-    padding: 7px; 
-    margin: 0 auto 0 auto;
+    padding: 12px 20px 12px 20px; 
+    margin: 5px auto 5px auto;
+    border: 1px solid;
     
 }
+#topbar::after{
+    background-color:#8B7E7E;
+    content:url(pics/coffey.jpg); 
+}
+
 #topbar{
-    background-color:#666633;
+	text-align:right;
+	height:263px;
+	background-color:#4A4545;
+	color:white;
 }
-
-#menu::before{
-	content:url(pics/coffey.jpg); 
-	display:block; 
-	width:100%;
-	margin: 0px;
-	padding:0px;
-	float:left;
-	border-style: solid none;
-}
-
 #menu{
-    background-color:#666633;
+    position:absolute;
+	display:inline-block;
+	width:500px;
+	margin: -36px 10px 0px 10px;
+	padding:13px 0px 0px 0px;
+	background-color:#8B7E7E;
 }
+
 #menu li {
-	background:#666633;
+	background:#8B7E7E;
 	float:left;
 	margin-top:-29px;
-   
+
+    margin-right:10px;
+    
 } 
 
 #menu li a{
-	padding: 10px;
+	padding: 12px;
 	display: inline-block;
-	width: 100px;
+	width: 65px;
 	text-align: center;
-	font-size: 19px;
+	font-size: 12px;
 	color: rgba(6, 0, 0, 1);
-	background:#666633;
+	background:#8B7E7E;
 
 }
 
 
 #menu li a:hover {
 	cursor: pointer; 
-	background: rgba(0,0,255,0.6);
-	color: rgba(0,0,0,1);
+	background: LightGray;
+	color: DimGray;
 }
 
 #menu #current {
@@ -84,11 +95,18 @@ ul{
 
 #content{
 	background-color:LightGray;
+	margin-top:0px;
 }
+
 #maincontent{
     float:left;
     display:inline;
     width:60%;
+    border-style:none dotted none none;
+    border-color:silver;
+    color:DimGray;
+    font-family: "Times New Roman", Times, serif;
+    font-size:14px;
 }
 
 #bubbel{
@@ -98,6 +116,14 @@ ul{
 	
 #subcontent{
 	float:right;
-	width:40%;
+	width:39%;
+	color:DimGray;
+	font-family: "Times New Roman", Times, serif;
+    font-size:14px;
 }
 
+#bottomcontent{
+	
+	color:DimGray;
+	font-family: "Times New Roman", Times, serif;
+}
